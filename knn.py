@@ -89,7 +89,7 @@ def main():
     for x in range(len(setDataUji)):
         hasil = cariTetangga(setDataLatih, setDataUji[x], k)
         prediksi.append(hasil)
-        print 'Pokemon', setDataUji[x][1], '-->IS_LEGENDARY ( fakta= ', \
+        print 'Pokemon', setDataUji[x][1], '--> IS_LEGENDARY ( fakta= ', \
             setDataUji[x][-1], '; prediksi= ', hasil, ')'
     print 'Tingkat Akurasi: ', hitungAkurasi(setDataUji, prediksi), '%'
 
