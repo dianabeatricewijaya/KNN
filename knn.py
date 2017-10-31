@@ -85,7 +85,7 @@ def main():
     print 'Jumlah data uji: ', len(setDataUji)
 
     prediksi = []
-    k = 3
+    k = 13
     for x in range(len(setDataUji)):
         hasil = cariTetangga(setDataLatih, setDataUji[x], k)
         prediksi.append(hasil)
