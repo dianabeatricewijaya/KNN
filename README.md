@@ -1,7 +1,7 @@
 # Machine Learning
 Machine Learning Algorithms Implementation (kNN)
 
-An example Neural Network to the Pokemon Gen7 corpus
+An example K-Nearest Neighbor (kNN) to the Pokemon Gen7 corpus
 
 How to run :
 
